@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitish Kumar | Portfolio</title>
+    <!-- Modern Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sticky Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Nitish<span class="highlight">.</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h2 class="hero-greeting">Hi, I am</h2>
+            <h1 class="hero-title">Nitish Kumar</h1>
+            <h3 class="hero-subtitle">
+                <span id="typing-text"></span><span class="cursor">|</span>
+            </h3>
+            <p class="hero-tagline">Passionate about coding, problem-solving, and building logic.</p>
+            
+            <div class="hero-socials">
+                <a href="https://github.com/nitishkumarsahu411-ai" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nitish-kumar-456b4b384" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:nitishkumarsahu411@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <button class="btn btn-outline" id="download-resume-btn"><i class="fas fa-download"></i> Download Resume</button>
+            </div>
+        </div>
+        <!-- Abstract gradient shapes -->
+        <div class="gradient-shape shape-1"></div>
+        <div class="gradient-shape shape-2"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I am an engineering student pursuing my B.Tech in Computer Science from SVIET (IKGPTU). I have a strong passion for coding and problem-solving. I am an enthusiastic learner focused on building logic, improving programming skills, and exploring new technologies.
+                    </p>
+                    <div class="strengths-box">
+                        <h3><i class="fas fa-bolt highlight"></i> My Strengths</h3>
+                        <ul class="strengths-list">
+                            <li><i class="fas fa-check"></i> Exceptional problem-solving ability</li>
+                            <li><i class="fas fa-check"></i> Self-motivated and consistent</li>
+                            <li><i class="fas fa-check"></i> Always updated in my field</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills bg-alt">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>C Programming</h3>
+                    <p>Strong foundation in procedural programming and building core logic.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-cuttlefish"></i><i class="fas fa-plus fa-xs"></i><i class="fas fa-plus fa-xs"></i></div>
+                    <h3>C++</h3>
+                    <p>Object-oriented programming, data structures, and algorithms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Scientific Calculator</h3>
+                        <p class="project-desc">A console-based calculator performing basic to advanced arithmetic operations, demonstrating control flow and mathematical logic in C++.</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>Console App</span>
+                            <span>Logic</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p class="project-desc">A personal portfolio showcasing projects and skills. Features a modern, responsive user interface with dark theme and dynamic animations.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education bg-alt">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Education</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>B.Tech Computer Science Engineering</h3>
+                        <h4 class="highlight">SVIET, IKGPTU</h4>
+                        <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2025 – 2029</span>
+                        <p>Pursuing comprehensive engineering studies with focus on software development and computational theory.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Intermediate</h3>
+                        <span class="timeline-date"><i class="fas fa-check-circle"></i> Completed</span>
+                        <p>Graduated with a strong academic performance.</p>
+                        <div class="score-badge">Score: 81.3%</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Matriculation</h3>
+                        <span class="timeline-date"><i class="fas fa-check-circle"></i> Completed</span>
+                        <p>Built a solid academic foundation.</p>
+                        <div class="score-badge">Score: 89.4%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                        <div class="info-details">
+                            <h4>Phone</h4>
+                            <p>+91-6206677119</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <div class="info-details">
+                            <h4>Email</h4>
+                            <p>nitishkumarsahu411@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-details">
+                            <h4>Location</h4>
+                            <p>India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contact-form">
+                        <div class="input-group">
+                            <input type="text" id="name" required placeholder="Your Name">
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required placeholder="Your Email">
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="current-year"></span> Nitish Kumar. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/nitishkumarsahu411-ai" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nitish-kumar-456b4b384" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
